@@ -2,10 +2,11 @@
     width:50%;
     border: 2px solid green;
     display:grid;
-    grid-template: 50px 50px / 40px 40px
+    grid-template: 50px 50px / 50px 50px;
+   gap: 30px 50px;
 }
 
-.gridA, .gridB, .gridC, .gridD{
-    margin:5px;
-    border: 2px solid black;
+.container > div{
+   
+    border: 2px solid red;
 }
