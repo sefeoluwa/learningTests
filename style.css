@@ -1,8 +1,8 @@
 .container{
-    width:fit-content;
+    width: 50%;
     border: 2px solid green;
     display:grid;
-    grid-template: 50px 50px 50px 50px/ 50px 50px 50px 50px;
+    grid-template-areas: "gA gA gA gA gA" "gA gA gA gA gA" "gB gC gC gC gE" "gB gC gC gC gE" "gD gD gD gD gD" ;
   
    grid-auto-rows: 50px;
    text-align:center;
@@ -14,36 +14,21 @@
 }
 
 .gridA{
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-area: gA;
 }
 
 .gridB{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-area: gB;
 }
 
 .gridC{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-area: gC;
 }
 
 .gridD{
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-area: gD;
 }
 
 .gridE{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-area: gE;
 }
