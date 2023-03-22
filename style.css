@@ -2,7 +2,7 @@
     width: 50%;
     border: 2px solid green;
     display:grid;
-    grid-template-areas: "gA gA gA gA gA" "gA gA gA gA gA" "gB gC gC gC gE" "gB gC gC gC gE" "gD gD gD gD gD" ;
+    grid-template-areas: "gA gA gA gA gA" "gA gA gA gA gA" "gB gC gC gC gE" "gB gC gC gC gE" ". . . . ." "gD gD gD gD gD"  ;
   
    grid-auto-rows: 50px;
    text-align:center;
