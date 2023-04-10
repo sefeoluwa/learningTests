@@ -26,3 +26,8 @@
   img {
     height: 60px;
   }
+
+  .info, .text{
+    font-size: 2em;
+    margin-top: 5vh;
+  }
